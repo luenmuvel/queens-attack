@@ -1,15 +1,12 @@
 # Queen Attack
 
-Given the position of two queens on a chess board, indicate whether or not they
-are positioned so that they can attack each other.
+Data una posición de dos reinas en un tablero de ajedrez, indicar cuando ellas pueden o no atacarse entre sí.
 
-In the game of chess, a queen can attack pieces which are on the same
-row, column, or diagonal.
+En el juego de ajedrez, una reina puede atacar piezas que estén en la misma fila, columna o en diagonal.
 
-A chessboard can be represented by an 8 by 8 array.
+Un tablero de ajedrez puede estar representado por un arreglo de 8 x 8.
 
-So if you're told the white queen is at (2, 3) and the black queen at
-(5, 6), then you'd know you've got a set-up like so:
+Por tanto, si le dices a la reina blanca que está en la posición (2, 3) y la negra está en la posición (5, 6), entonces tendrás una figura como la siguiente:
 
 ```text
 _ _ _ _ _ _ _ _
@@ -22,38 +19,4 @@ _ _ _ _ _ _ _ _
 _ _ _ _ _ _ _ _
 ```
 
-You'd also be able to answer whether the queens can attack each other.
-In this case, that answer would be yes, they can, because both pieces
-share a diagonal.
-
-## Setup
-
-Go through the setup instructions for TypeScript to
-install the necessary dependencies:
-
-http://exercism.io/languages/typescript
-
-## Requirements
-
-Install assignment dependencies:
-
-```bash
-$ yarn install
-```
-
-## Making the test suite pass
-
-Execute the tests with:
-
-```bash
-$ yarn test
-```
-
-
-
-## Source
-
-J Dalbey's Programming Practice problems [http://users.csc.calpoly.edu/~jdalbey/103/Projects/ProgrammingPractice.html](http://users.csc.calpoly.edu/~jdalbey/103/Projects/ProgrammingPractice.html)
-
-## Submitting Incomplete Solutions
-It's possible to submit an incomplete solution so you can see how others have completed the exercise.
+Debes tambien ser capaz de responder cuando una reina puede atacar a otra. En ese caso, la respuesta debería ser sí, ellas pueden, porque ambas piezas están en diagonal.
